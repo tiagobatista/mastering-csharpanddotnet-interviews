@@ -61,3 +61,8 @@ PointStruct ps2 = ps1;
 ps2.X = 30;
 Console.WriteLine(ps1.X); //output 10 (value type)
 
+
+class BaseClass
+{
+    protected int publicValue = 10;
+}
